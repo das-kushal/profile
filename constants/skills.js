@@ -1,34 +1,36 @@
 const skillSet = [
   {
     id: 1,
-    name: "Python",
-    imageUrl: "/logos/python-original.svg",
-  },
-  {
-    id: 2,
     name: "React",
     imageUrl: "/logos/react-original.svg",
   },
+
   {
-    id: 3,
+    id: 2,
     name: "React Native",
     imageUrl: "/logos/react-original.svg",
   },
   {
-    id: 4,
+    id: 3,
     name: "C++",
     imageUrl: "/logos/cplusplus-original.svg",
   },
   {
-    id: 5,
-    name: "Java",
-    imageUrl: "logos/java-original.svg",
+    id: 4,
+    name: "Python",
+    imageUrl: "/logos/python-original.svg",
   },
   {
     id: 6,
     name: "JavaScript",
     imageUrl: "/logos/javascript-original.svg",
   },
+  {
+    id: 5,
+    name: "Java",
+    imageUrl: "logos/java-original.svg",
+  },
+
   {
     id: 7,
     name: "Express.JS",
@@ -38,6 +40,11 @@ const skillSet = [
     id: 8,
     name: "Chakra UI",
     imageUrl: "/logos/chakraui.png",
+  },
+  {
+    id: 100,
+    name: "Next.JS",
+    imageUrl: "/logos/nextjs.png",
   },
   {
     id: 9,
@@ -79,11 +86,11 @@ const skillSet = [
     name: "DSA",
     imageUrl: "/logos/dsa.png",
   },
-  {
-    id: 17,
-    name: "OOP",
-    imageUrl: "/logos/oop.png",
-  },
+  // {
+  //   id: 17,
+  //   name: "OOP",
+  //   imageUrl: "/logos/oop.png",
+  // },
   {
     id: 18,
     name: "Redux",
