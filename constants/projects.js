@@ -21,8 +21,8 @@ Meal app  built using React Native and TailwindCSS  and sanity.io CMS for backen
     id: "2",
     name: "Survey on Persistent Data Structures",
     desc: `
- A  research on persistent data structures under the guidance of  Prof. Chandan Mazumdar 
- Used Directed Acyclic Graph for Persistent Stack.
+ A  research on persistent data structures under the guidance of  Prof. Chandan Mazumdar,
+  used Directed Acyclic Graph for Persistent Stack.
         `,
 
     githubLink: "https://github.com/das-kushal/Persistent_Stack",
