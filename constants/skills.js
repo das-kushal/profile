@@ -21,6 +21,11 @@ const skillSet = [
     imageUrl: "/logos/python-original.svg",
   },
   {
+    id: 66,
+    name: "Golang",
+    imageUrl: "/logos/go-original.svg",
+  },
+  {
     id: 6,
     name: "JavaScript",
     imageUrl: "/logos/javascript-original.svg",

@@ -1,6 +1,17 @@
 const timelineData = [
   {
     id: 1,
+    title: "Program Associate",
+    place: "Wells Fargo",
+    location: "Hyderabad, Telangana",
+    description:
+      "I am currently working with the Foreign Exchange Online(FXOL) 'Solvers' team .",
+
+    date: "August 2024 - Present",
+    icon: "work",
+  },
+  {
+    id: 2,
     title: "Intern Analyst",
     place: "Wells Fargo",
     location: "Bangalore, Karnataka",
@@ -11,29 +22,29 @@ const timelineData = [
     icon: "work",
   },
   {
-    id: 2,
+    id: 3,
     title: "Bachelor of Engineering",
     place: "Jadavpur University",
     location: "Kolkata, West Bengal",
     description:
-      "Joined Jadavpur University after getting a rank of 142 in WBJEE . I am currently pursuing my Bachelors in Computer Science and Engineering. I am currently in my Final year.",
+      "Joined Jadavpur University after getting a rank of 142 in WBJEE . I have pursued my Bachelors in Computer Science and Engineering with Honours. I am currently in my Final year.",
 
     date: "December 2020 - June 2024",
     icon: "school",
   },
   {
-    id: 3,
+    id: 4,
     title: "Higher Secondary",
     place: "Hem Sheela Model School",
     location: "Durgapur, West Bengal",
     description:
-      "I completed my Higher Secondary from Hem Sheela Model School . I was in CBSE board and passed my AISSCE exam with a percentage of 96.8% . I took PCMB during my school.",
+      "I completed my Higher Secondary from Hem Sheela Model School . I was in CBSE board and passed my AISSCE exam with a percentage of 96.8%. I took PCMB during my school.",
 
     date: "April 2018 - April 2020",
     icon: "school",
   },
   {
-    id: 4,
+    id: 5,
     title: "Secondary",
     place: "Hem Sheela Model School",
     location: "Durgapur, West Bengal",

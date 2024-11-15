@@ -17,7 +17,7 @@ export default function SkillCard({ imgUrl, name }) {
           className="group-hover:opacity-100 w-auto"
         />
       </div>
-      <div className="sm:p-2 p-3 sm:absolute sm:bottom-3">
+      <div className="sm:p-2 p-3 sm:absolute sm:bottom-3 grid">
         <p className="font-bold text-center">{name}</p>
       </div>
     </div>

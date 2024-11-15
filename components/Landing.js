@@ -38,9 +38,9 @@ export default function Landing({ id }) {
               </span>
             </h2>
             <h2 className="sm:text-3xl text-xl text-center text-[#b0b2b4]">
-              Final Year CSE Student at
+              Program Associate
               <span className="text-[#ec0000d0] hover:text-white">
-                <br /> Jadavpur University
+                <br /> Wells Fargo
               </span>
             </h2>
           </div>

@@ -6,7 +6,7 @@ export default function WorkExperience() {
   return (
     <>
       <Heading title="Work Experience & Education" />
-      <div className="flex-col justify-around items-center mt-4 mx-4 sm:grid sm:grid-cols-2 sm:gap-4">
+      <div className="flex-col justify-around items-center mt-4 mx-5 grid grid-cols-1 ">
         {timelineData.map((item, index) => (
           <WorkExperienceCard
             key={index}

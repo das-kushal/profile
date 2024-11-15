@@ -6,8 +6,8 @@ import SkillCard from "@/utils/SkillCard";
 export default function Skills() {
   return (
     <>
-      <Heading title="Skills" />
-      <div className="sm:grid sm:grid-cols-4 flex flex-wrap gap-2 mx-4">
+      <Heading title="SkillSet" />
+      <div className="sm:grid sm:grid-cols-3 flex flex-wrap gap-2 mx-4">
         {skillSet.map((skill, index) => {
           return (
             <SkillCard
