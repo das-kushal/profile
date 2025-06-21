@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className="bg-[#282E34] text-white"
+      className="bg-[#282e34] text-white"
       suppressHydrationWarning
     >
       <body className={`${inter.className}`}>{children}</body>

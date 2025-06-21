@@ -9,6 +9,7 @@ const timelineData = [
 
     date: "August 2024 - Present",
     icon: "work",
+    logoUrl: "/images/wf-logo.png",
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ const timelineData = [
 
     date: "May 2023 - July 2023",
     icon: "work",
+    logoUrl: "/images/wf-logo.png",
   },
   {
     id: 3,
@@ -31,6 +33,7 @@ const timelineData = [
 
     date: "December 2020 - June 2024",
     icon: "school",
+    logoUrl: "/images/ju-logo.png",
   },
   {
     id: 4,
@@ -42,6 +45,7 @@ const timelineData = [
 
     date: "April 2018 - April 2020",
     icon: "school",
+    logoUrl: "/images/hsms-logo.png",
   },
   {
     id: 5,
@@ -49,10 +53,12 @@ const timelineData = [
     place: "Hem Sheela Model School",
     location: "Durgapur, West Bengal",
     description:
-      "I completed my  Secondary from Hem Sheela Model School . I was in CBSE board and passed my AISCE exam with a percentage of 97.4% . I have been studying at this school since when I was a small kid from nursery to be precise 😅.",
+      "I completed my  Secondary from Hem Sheela Model School . I was in CBSE board and passed my AISCE exam with a percentage of 97.4% .",
+    //  I have been studying at this school since when I was a small kid from nursery to be precise 😅.",
 
     date: "April 2005 - May 2018",
     icon: "school",
+    logoUrl: "/images/hsms-logo.png",
   },
 
   // Add more timeline items here

@@ -19,14 +19,65 @@ export default function Landing({ id }) {
          "
         >
           <div className="items-center mb-2 flex justify-center">
-            <Image
+            <div className="relative w-[200px] h-[200px] flex justify-center items-center">
+              <svg
+                width="200"
+                height="200"
+                viewBox="0 0 200 200"
+                className="absolute inset-0"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  {/* Gradient for border path */}
+
+                  {/* Clip path for the image */}
+                  <clipPath id="dynamic-blob-clip">
+                    <path
+                      d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                      style={{
+                        transition: "0.3s",
+                      }}
+                      scale={0.3}
+                    />
+                  </clipPath>
+                </defs>
+
+                {/* Image inside blob */}
+                <image
+                  href={myImg.src}
+                  width="200"
+                  height="200"
+                  clipPath="url(#dynamic-blob-clip)"
+                  preserveAspectRatio="xMidYMid slice"
+                />
+
+                {/* Blob outline animation */}
+                {/* <path
+                  d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                  130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                  97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                  0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  transform="translate(75 75) scale(1)"
+                  fill="none"
+                  stroke="url(#sw-gradient)"
+                  strokeWidth="2"
+                  className="animate-pulse"
+                /> */}
+              </svg>
+            </div>
+
+            {/* <Image
               src={myImg}
               alt="image of me "
               width={150}
               height={150}
-              className="shadow-md border-2 border-[#ec0000d0]"
+              // border-[#ec0000d0]
+              className="shadow-2xl  "
               style={{ borderRadius: "50%", overflow: "hidden" }}
-            />
+            /> */}
           </div>
           <div className="flex-col items-center justify-center">
             <h1 className="text-4xl sm:text-6xl font-light text-center text-[#FAD700] hover:text-white mb-3">
@@ -78,7 +129,7 @@ export default function Landing({ id }) {
           </div>
         </div>
 
-        <div className="hidden md:flex md:w-full mr-3">
+        <div className="hidden lg:flex lg:w-full mr-3">
           <Image
             src={landingImg}
             alt="image of me "
