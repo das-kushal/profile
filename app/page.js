@@ -102,7 +102,7 @@ export default function Home() {
     <>
       <Navbar />
       {/* Add padding-top to account for fixed navbar */}
-      <div className="flex-col justify-center items-center mx-auto max-w-[1200px] m:pt-24">
+      <div className="flex-col justify-center items-center mx-auto max-w-[1200px] md:pt-24">
         <section id="top" className="scroll-mt-20">
           <Landing />
         </section>
