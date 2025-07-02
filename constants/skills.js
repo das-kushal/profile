@@ -213,6 +213,12 @@ const skillSet = [
     type: "framework",
   },
   {
+    id: 145,
+    name: "Playwright",
+    imageUrl: "/logos/playwright.png",
+    type: "framework",
+  },
+  {
     id: 15,
     name: "Vitest",
     imageUrl: "/logos/vitest-original.png",

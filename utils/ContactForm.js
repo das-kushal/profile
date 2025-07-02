@@ -7,6 +7,7 @@ import { useForm, ValidationError } from "@formspree/react";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Button from "./Button";
 
 export default function ContactForm() {
   const [state, handleSubmit] = useForm("xqkvqkdo");
@@ -22,6 +23,9 @@ export default function ContactForm() {
     emailRef.current.value = "";
     btnRef.current.click();
   }
+  // bg-[#33383D]
+  const inputStyle="w-full px-4 py-3 border border-gray-700 bg-gray-900 focus:bg-gray-900 rounded-xl focus:outline-none focus:border-[#ec0000] shadow-2xl text-[#B0B2B4] placeholder-[#B0B2B480] focus:text-white focus:placeholder-[#B0B2B4]";
+
   return (
     <>
       <div className=" mx-auto  sm:pr-0 sm:pl-5 px-2 rounded-md  w-full">
@@ -55,7 +59,8 @@ export default function ContactForm() {
               ref={nameRef}
               name="name"
               placeholder="Your Name"
-              className="w-full px-4 py-2 border border-gray-700 bg-[#33383D] placeholder-gray-20 focus:bg-white rounded-md focus:outline-none focus:border-[#ec0000] shadow-md"
+              // className="w-full px-4 py-2 border border-gray-700 bg-[#33383D]  focus:bg-white rounded-md focus:outline-none focus:border-[#ec0000] shadow-md"
+              className={inputStyle}
             />
             <ValidationError prefix="Name" field="name" errors={state.errors} />
           </div>
@@ -73,7 +78,8 @@ export default function ContactForm() {
               ref={emailRef}
               name="email"
               placeholder="Your Email"
-              className="w-full px-4 py-2 border border-gray-700 bg-[#33383D] focus:bg-white  rounded-md focus:outline-none focus:border-[#ec0000] shadow-md"
+              className={inputStyle}
+              // className="w-full px-4 py-2 border border-gray-700 bg-[#33383D] focus:bg-white  rounded-md focus:outline-none focus:border-[#ec0000] shadow-md"
             />
             <ValidationError
               prefix="Email"
@@ -95,7 +101,8 @@ export default function ContactForm() {
               ref={inpRef}
               placeholder="Your Message"
               rows="4"
-              className="w-full px-4 py-2 border border-gray-700 bg-[#33383D] focus:bg-white  rounded-md resize-none focus:outline-none focus:border-[#ec0000] shadow-md"
+              className={`${inputStyle} resize-none`}
+              // className="w-full px-4 py-2 border border-gray-700 bg-[#33383D] focus:bg-white  rounded-md resize-none focus:outline-none focus:border-[#ec0000] shadow-md"
             ></textarea>
             <ValidationError
               prefix="Message"
@@ -105,13 +112,19 @@ export default function ContactForm() {
           </div>
 
           <div className="flex items-center justify-end">
-            <button
+            {/* <button
               type="submit"
               disabled={state.submitting}
               className="text-[#B0B2B4] border sm:w-[150px]  text-center border-gray-500 hover:border-[#EC0000] hover:text-[#ffffff] hover:cursor-pointer focus:cursor-pointer font-semibold py-2 px-4 rounded-md shadow-md focus:outline-none  "
             >
               {state.submitting ? "Submitting" : "Submit"}
-            </button>
+            </button> */}
+             <Button
+              type="submit"
+              disabled={state.submitting}
+            >
+              {state.submitting ? "Submitting" : "Submit"}
+            </Button>
           </div>
         </form>
 

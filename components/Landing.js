@@ -103,7 +103,7 @@ export default function Landing({ id }) {
                 href="https://drive.google.com/file/d/1etF3XFAILozDI_JyP1CrDWRrD48Wsef9/view"
                 target="_blank"
               >
-                <Button>
+                <Button cl="text-white  sm:w-[150px] sm:text-base text-sm text-center border-gray-700  hover:cursor-pointer focus:cursor-pointer font-semibold py-2 px-4 rounded-xl shadow-2xl focus:outline-none  hover:bg-yellow-800 bg-yellow-600">
                   <span className="flex justify-center gap-2 items-center">
                     Resume <FaExternalLinkAlt className="text-xs sm:text-sm" />
                   </span>
@@ -135,7 +135,7 @@ export default function Landing({ id }) {
             alt="image of me "
             width={600}
             height={50}
-            // className="shadow-md"
+          // className="shadow-md"
           />
         </div>
       </div>

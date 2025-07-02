@@ -202,7 +202,7 @@ export default function WorkExperienceCard({
         <div className="w-2 h-2 bg-white rounded-full"></div>
       </span>
 
-      <div className="bg-gray-900 border border-gray-700 rounded-lg p-4 hover:border-red-500 cursor-pointer shadow-xl transition-all duration-300">
+      <div className="bg-gray-900 border border-gray-700 rounded-xl p-4 hover:border-red-500 cursor-pointer shadow-xl transition-all duration-300">
         <div className="flex items-start gap-4">
           {/* Organization Logo */}
           <div className="flex-shrink-0 w-16 h-16 bg-transparent rounded-lg p-2 flex items-center justify-center">

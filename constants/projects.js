@@ -53,7 +53,7 @@ Meal app  built using React Native and TailwindCSS  and sanity.io CMS for backen
     githubLink: "https://github.com/das-kushal/Persistent_Stack",
     iconLink: "",
     icon: "",
-    skills: ["Data Structures", "C++", "Algorithms"],
+    skills: ["Data Structures","C++","Algorithms"],
   },
   {
     id: "3",
@@ -70,7 +70,7 @@ Chrome extension to change the fonts & letter spacing of editor of leetcode and 
     iconLink:
       "https://github.com/das-kushal/Coding-Ninjas-LeetCode-Font-Changer/blob/main/favFInal.png?raw=true",
     icon: "",
-    skills: ["HTML", "CSS", "Javascript", "Chrome Extension"],
+    skills: ["HTML","CSS","Javascript","Chrome Extension"],
   },
 
   {
@@ -81,17 +81,18 @@ Chrome extension to change the fonts & letter spacing of editor of leetcode and 
     reportUrl: "/projects/finalyear/BCSE_Project_Report_Template.pdf",
     presentationUrl: "/projects/finalyear/bpmn-to-neo4j-ppt.pdf",
     desc: `
-This is the final year project which I did under the guidance of Prof. Mridul Sankar Barik. The project is about converting the BPMN model to Neo4j graph database. The project is done using Python and Neo4j.
-In this project we take a BPMN model and extract the different types of nodes and relationships which have different attributes and then convert it to a Neo4j graph.
-The next part of the project was to create a web interface where the user can upload/create a BPMN model, convert into a Neo4j graph, view it and query the graph to see the results.
+    This is the final year project which I did under the guidance of Prof. Mridul Sankar Barik. The project is about converting the BPMN model to Neo4j graph database. The project is done using Python and Neo4j.
+    In this project we take a BPMN model and extract the different types of nodes and relationships which have different attributes and then convert it to a Neo4j graph.
+    The next part of the project was to create a web interface where the user can upload/create a BPMN model, convert into a Neo4j graph, view it and query the graph to see the results.
 
 
 
-        `,
+            `,
+    // desc: `This final year project, guided by Prof. Mridul Sankar Barik, focuses on converting BPMN models into Neo4j graph databases using Python and Neo4j. It involves extracting nodes and relationships with attributes from BPMN models and transforming them into graph structures. Additionally, a web interface was developed to allow users to upload or create BPMN models, convert them into graphs, visualize them, and query the graph for insights.`,
     githubLink: "https://github.com/das-kushal/bpmn-to-neo4j",
     iconLink: "",
     icon: "",
-    skills: ["Javascript", "React", "Neo4j", "BPMN", "Graph Visualization"],
+    skills: ["Javascript","React","Neo4j","BPMN","Graph Visualization"],
   },
 ];
 

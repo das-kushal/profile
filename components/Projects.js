@@ -27,25 +27,25 @@
 // }
 
 "use client";
-import { useState, useEffect } from "react";
+import { useState,useEffect } from "react";
 import ProjectCard from "@/utils/ProjectCard";
 import Heading from "./Heading";
 import projectData from "@/constants/projects";
 import Button from "@/utils/Button";
 
 export default function Projects() {
-  const [selectedTab, setSelectedTab] = useState("personal");
+  const [selectedTab,setSelectedTab] = useState("personal");
 
   useEffect(() => {
     const savedTab = localStorage.getItem("selectedTab");
     if (savedTab) {
       setSelectedTab(savedTab);
     }
-  }, []);
+  },[]);
 
   const handleTabClick = (tab) => {
     setSelectedTab(tab);
-    localStorage.setItem("selectedTab", tab);
+    localStorage.setItem("selectedTab",tab);
   };
 
   const filteredProjects = projectData.filter((project) =>
