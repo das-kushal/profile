@@ -180,6 +180,8 @@
 //   );
 // }
 
+"use client";
+import { useState,useEffect,useRef } from "react";
 import Image from "next/image";
 
 export default function WorkExperienceCard({
@@ -193,6 +195,20 @@ export default function WorkExperienceCard({
 }) {
   const iconColor = icon === "work" ? "text-[#50D6A0]" : "text-[#F9C74F]";
   const dotColor = icon === "work" ? "bg-[#50D6A0]" : "bg-[#F9C74F]";
+
+  const [isExpanded,setIsExpanded] = useState(false);
+  const [isClamped,setIsClamped] = useState(false);
+  const textRef = useRef(null);
+
+  const toggleExpand = () => setIsExpanded(!isExpanded);
+
+  useEffect(() => {
+    if (textRef.current) {
+      const isOverflowing =
+        textRef.current.scrollHeight > textRef.current.clientHeight;
+      setIsClamped(isOverflowing);
+    }
+  },[content]);
 
   return (
     <li className="mb-10 ms-6">
@@ -224,7 +240,15 @@ export default function WorkExperienceCard({
             <p className="text-base text-gray-400 mb-2">
               <strong className="text-white">{place}</strong> - {location}
             </p>
-            <p className="text-sm text-gray-400 leading-relaxed">{content}</p>
+            <p ref={textRef} className={`text-sm text-gray-400 leading-relaxed ${isExpanded ? "" : "line-clamp-3"}`}>{content}</p>
+            {isClamped && (
+              <button
+                onClick={toggleExpand}
+                className="text-blue-500 hover:underline text-sm"
+              >
+                {isExpanded ? "Read Less" : "Read More"}
+              </button>
+            )}
           </div>
         </div>
       </div>

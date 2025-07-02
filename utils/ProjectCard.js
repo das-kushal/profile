@@ -392,7 +392,7 @@ export default function ProjectCard({
             {isClamped && (
               <button
                 onClick={toggleExpand}
-                className="text-blue-500 hover:underline "
+                className="text-blue-500 hover:underline text-sm"
               >
                 {isExpanded ? "Read Less" : "Read More"}
               </button>
