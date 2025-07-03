@@ -87,6 +87,7 @@ export default function Projects() {
           </button>
           {/*  */}
           <h2 className="text-xl font-bold text-yellow-300 mb-2 text-center" ref={videoRef}>{selectedProject.name}</h2>
+          {/* TODO make the video player advanced and video streaming better */}
           {selectedProject.videoUrl && (
             <video
               src={selectedProject.videoUrl}
