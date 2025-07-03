@@ -359,9 +359,9 @@ export default function ProjectCard({
 
   return (
     <>
-      <div className="group bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-red-500 mb-4 sm:m-2 shadow-lg cursor-pointer flex flex-col sm:flex-row w-full ">
+      <div className="group bg-gray-900 rounded-xl overflow-hidden border border-gray-700 hover:border-red-500 mb-4 sm:m-2 shadow-lg  flex flex-col sm:flex-row w-full ">
         {/* Project Image */}
-        <div className="relative h-48 sm:h-auto sm:w-1/3 overflow-hidden" onClick={openModal}>
+        <div className="relative h-48 sm:h-auto sm:w-1/3 overflow-hidden cursor-pointer" onClick={openModal}>
           <Image
             src={imgUrl}
             alt={name}
@@ -373,7 +373,8 @@ export default function ProjectCard({
           {type && (
             <div className="absolute top-3 left-3 z-10">
               <span className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-gray-900/90 backdrop-blur-sm text-yellow-300 border border-gray-600">
-                {type === "finalYear" ? "Final Year" : "Project"}
+                {/* {type === "finalYear" ? "Final Year" : "Project"} */}
+                Click to View
               </span>
             </div>
           )}
