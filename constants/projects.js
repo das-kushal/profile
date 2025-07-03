@@ -4,6 +4,7 @@ const projectData = [
     type: "personal",
     name: "Ethicheck.AI",
     imgUrl: "/projects/ethicheck.jpeg",
+    videoUrl: "/videos/ethicheck.mp4",
     desc: `
 Ethicheck.AI is a project that I did as a part of a hackathon , it helps to check the ethics of the query &  safeguard the response that is given by the chatbot. There is a rule generation pipeline which has automated rule creation from EU AI act etc. forming knowledge graph. 
 There is a user interface for the chatbot and the admin panel in which the admin can upload rulebooks, see the 3D knowledge graph, and also overall statistics threat-level wise and also user wise specifying the duration.
@@ -25,6 +26,7 @@ There is a user interface for the chatbot and the admin panel in which the admin
     name: "MealApp",
     type: "personal",
     imgUrl: "/projects/mealapp.png",
+    videoUrl: "/videos/MealAppDEMO.mp4",
     desc: `
 Meal app  built using React Native and TailwindCSS  and sanity.io CMS for backend part 
         `,
@@ -45,6 +47,8 @@ Meal app  built using React Native and TailwindCSS  and sanity.io CMS for backen
     type: "personal",
     name: "Survey on Persistent Data Structures",
     imgUrl: "/projects/persistent.png",
+    reportUrl: "/projects/Persistent-Stack.pdf",
+    // videoUrl: "/videos/PersistentStackDemo.mp4",
     desc: `
  A  research on persistent data structures under the guidance of  Prof. Chandan Mazumdar,
   used Directed Acyclic Graph for Persistent Stack.
@@ -60,6 +64,7 @@ Meal app  built using React Native and TailwindCSS  and sanity.io CMS for backen
     type: "personal",
     name: "Coding Ninjas & LeetCode Font Changer",
     imgUrl: "/projects/fontchanger.png",
+    videoUrl: '/videos/FontChangerExtensionDEMO.mp4',
     desc: `
 Chrome extension to change the fonts & letter spacing of editor of leetcode and coding ninjas, has permisions for activeTab & storage , used localStorage.
 
@@ -79,6 +84,7 @@ Chrome extension to change the fonts & letter spacing of editor of leetcode and 
     name: "BPMN2Neo4j",
     imgUrl: "/projects/finalyear/bpmn2neo4j.png",
     reportUrl: "/projects/finalyear/BCSE_Project_Report_Template.pdf",
+    videoUrl: "/videos/final_year_project_output_video.mp4",
     presentationUrl: "/projects/finalyear/bpmn-to-neo4j-ppt.pdf",
     desc: `
     This is the final year project which I did under the guidance of Prof. Mridul Sankar Barik. The project is about converting the BPMN model to Neo4j graph database. The project is done using Python and Neo4j.
