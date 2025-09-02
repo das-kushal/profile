@@ -1,4 +1,17 @@
 const timelineData = [
+
+  {
+    id: 1,
+    title: "Software Engineer",
+    place: "Wells Fargo",
+    location: "Hyderabad, Telangana",
+    description:
+      "Currently working with the Foreign Exchange Online(FXOL) app.",
+
+    date: "September 2025 - Present",
+    icon: "work",
+    logoUrl: "/images/wf-logo.png",
+  },
   {
     id: 1,
     title: "Program Associate",
@@ -7,7 +20,7 @@ const timelineData = [
     description:
       "Currently working with the Foreign Exchange Online(FXOL) app. Worked on the FXOL application in CCIBT, enhancing React.js microfrontends, automating workflows with BDD scripts, building high-risk change tracking in Spring Boot, supporting OpenShift migration, playing around with Playwright test automation and GenAI chatbot prototypes, and improving code quality through refactoring and documentation.",
 
-    date: "August 2024 - Present",
+    date: "August 2024 - September 2025",
     icon: "work",
     logoUrl: "/images/wf-logo.png",
   },
