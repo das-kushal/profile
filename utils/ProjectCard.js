@@ -1,8 +1,8 @@
 "use client";
-import { FaExternalLinkAlt,FaGithub,FaFileAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub, FaFileAlt } from "react-icons/fa";
 import { MdSlideshow } from "react-icons/md";
 import Image from "next/image";
-import { useState,useEffect,useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 
 export default function ProjectCard({
   name,
@@ -16,9 +16,9 @@ export default function ProjectCard({
   id,
   onImageClick // <-- NEW
 }) {
-  const [isModalOpen,setIsModalOpen] = useState(false);
-  const [isExpanded,setIsExpanded] = useState(false);
-  const [isClamped,setIsClamped] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
+  const [isClamped, setIsClamped] = useState(false);
   const textRef = useRef(null);
 
   const toggleExpand = () => setIsExpanded(!isExpanded);
@@ -28,7 +28,7 @@ export default function ProjectCard({
       const isOverflowing = textRef.current.scrollHeight > textRef.current.clientHeight;
       setIsClamped(isOverflowing);
     }
-  },[desc]);
+  }, [desc]);
 
   return (
     <>
@@ -50,7 +50,7 @@ export default function ProjectCard({
           {type && (
             <div className="absolute top-3 left-3 z-10">
               <span className="inline-flex items-center px-2 py-1 rounded-md text-xs font-medium bg-gray-900/90 backdrop-blur-sm text-yellow-300 border border-gray-600">
-                Click to View
+                Click to View Working Demo
               </span>
             </div>
           )}
@@ -75,7 +75,7 @@ export default function ProjectCard({
 
           {/* Skills */}
           <div className="flex flex-wrap gap-2 mb-4">
-            {skills.map((skill,index) => (
+            {skills.map((skill, index) => (
               <span
                 key={index}
                 className="text-xs px-2 py-1 bg-gray-800 text-green-400 rounded-md border border-gray-600"

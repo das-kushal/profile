@@ -23,12 +23,12 @@ There is a user interface for the chatbot and the admin panel in which the admin
   },
   {
     id: "1",
-    name: "MealApp",
+    name: "TasteTrack",
     type: "personal",
     imgUrl: "/projects/mealapp.png",
     videoUrl: "/videos/MealAppDEMO.mp4",
     desc: `
-Meal app  built using React Native and TailwindCSS  and sanity.io CMS for backend part 
+Built using React Native and TailwindCSS  and sanity.io CMS for backend  
         `,
     githubLink: "https://github.com/das-kushal/MealApp",
     iconLink:
@@ -39,6 +39,7 @@ Meal app  built using React Native and TailwindCSS  and sanity.io CMS for backen
       "TailwindCSS (NativeWind)",
       "Redux",
       "React Navigation",
+      "React Native Maps",
     ],
   },
 
@@ -57,7 +58,7 @@ Meal app  built using React Native and TailwindCSS  and sanity.io CMS for backen
     githubLink: "https://github.com/das-kushal/Persistent_Stack",
     iconLink: "",
     icon: "",
-    skills: ["Data Structures","C++","Algorithms"],
+    skills: ["Data Structures", "C++", "Algorithms"],
   },
   {
     id: "3",
@@ -75,7 +76,7 @@ Chrome extension to change the fonts & letter spacing of editor of leetcode and 
     iconLink:
       "https://github.com/das-kushal/Coding-Ninjas-LeetCode-Font-Changer/blob/main/favFInal.png?raw=true",
     icon: "",
-    skills: ["HTML","CSS","Javascript","Chrome Extension"],
+    skills: ["HTML", "CSS", "Javascript", "Chrome Extension"],
   },
 
   {
@@ -98,7 +99,7 @@ Chrome extension to change the fonts & letter spacing of editor of leetcode and 
     githubLink: "https://github.com/das-kushal/bpmn-to-neo4j",
     iconLink: "",
     icon: "",
-    skills: ["Javascript","React","Neo4j","BPMN","Graph Visualization"],
+    skills: ["Javascript", "React", "Neo4j", "BPMN", "Graph Visualization"],
   },
 ];
 
